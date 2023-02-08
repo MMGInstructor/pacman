@@ -190,8 +190,8 @@ parameters:
   generate: expression
   name: MONGODB_ADMIN_PASSWORD
   required: true
-- description: Version of MongoDB image to be used (3.6 or latest).
+- description: Version of MongoDB image to be used (2.6).
   displayName: Version of MongoDB Image
   name: MONGODB_VERSION
   required: true
-  value: "2.4"
+  value: "2.6"
