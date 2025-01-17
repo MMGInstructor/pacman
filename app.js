@@ -51,7 +51,8 @@ Database.connect(app, function(err) {
     if (err) {
         console.log('Failed to connect to database server');
     } else {
-        console.log('Connected to database server successfully');
+       // console.log('Connected to database server successfully');
+        console.log('Conectado a la BBDD');
     }
 
 });
